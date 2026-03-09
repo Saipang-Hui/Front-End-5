@@ -1,0 +1,51 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+line-height: 1.6;
+}
+
+p {
+    padding: 2rem; 
+}
+
+main {
+container-type: inline-size;
+container-name: main;
+width: 100%;
+margin: 0 auto;
+padding: 20px;
+background: #f4f4f4;
+}
+
+main p {
+background: yellow ;
+}
+
+aside {
+    container-type: inline-size;
+    container-name: aside;
+    flex : 0 0 30%;
+    background: palegreen;
+    padding: 20px;
+}
+
+@container main (max-width: 992px){
+    main p {
+        background: blue;
+    }
+}
+
+@container aside (max-width: 700px) {
+    aside p {
+    background: lightcoral;
+    }
+} 
+
+

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+  
+}
+
+.d1 {
+
+    background-color: cyan;
+    text-align: center;
+}
+
+.d2 {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
